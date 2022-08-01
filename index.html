@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch the Nums</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="init(4)">
+    <h1>TOUCH NUMS</h1>
+    
+    <button onclick="init(4)">Easy</button>
+    <button onclick="init(6)">Medium</button>
+    <button onclick="init(8)">Hard</button>
+    <p>
+        <a class="uperText timer"></a>
+        <a class="uperText nextNum"></a>
+    </p>
+    <table>
+        <tbody>
+        </tbody>
+    </table>
+    <p class="wrong">Wrong, please try again...</p>
+    <p class="win">Congratulations YOU WON!</p>
+
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>

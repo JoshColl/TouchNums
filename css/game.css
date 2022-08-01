@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background: linear-gradient(to top, #871aa8, #7518ae,#123593, #138bbf);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(139, 166, 210);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(138, 185, 211);
+}
+
+table {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(89, 94, 234);
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+td {
+    background-color: rgb(115, 199, 147);
+    width: 25px;
+    text-align: center;
+    font-size: larger;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: rgb(97, 156, 208);
+}
+
+.wrong {
+    position: absolute;
+    margin: auto;
+    left:50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    max-width: 200px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(207, 32, 61);
+    color: rgb(154, 234, 234);
+    border-radius: 10px;
+}
+
+.win {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    max-width: 500px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(35, 181, 61);
+    color: rgb(7, 42, 146);
+    border-radius: 10px;
+}
+
+.uperText {
+    font-size: 25px;
+    background-color: rgb(37, 4, 119);
+    color: rgb(100, 232, 247);
+    max-width: 150px;
+    margin-top: 25px;
+}
+
+.nextNum {
+    margin-left: 90px;
+}
